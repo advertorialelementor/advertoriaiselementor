@@ -1,1 +1,360 @@
-*{margin:0;padding:0;border:0}img{max-width:100%}.top-bar{background-color:#FF3131;display:block}.top-bar-title{text-align:center;color:white;padding:10px 10px;font-family:'Montserrat',sans-serif;font-weight:600;font-size:30px}.container{padding:50px 20px;display:flex;flex-direction:column;align-items:center}.headline{display:block;text-align:center;font-size:40px;font-weight:700;font-family:'Oswald',sans-serif;color:#343434}#sub-headline{color:#FF3131}.frame-video{background-color:#E6E6E6;max-width:900px;margin:25px 25px;padding:0px 7px 7px 7px;border-radius:7px}.video-adv{display:flex;justify-content:center;align-items:center;max-width:100%;border-radius:5px}.top-buttons{display:flex;justify-content:left;align-items:center}.circle{width:12px;height:12px;border-radius:100%;margin:15px 5px}#circle-1{background-color:#FF5F56}#circle-2{background-color:#FFBD2E}#circle-3{background-color:#27C93F}.cta-text{display:block;text-align:center;max-width:700px;font-family:'Lato',sans-serif;font-size:28px;font-weight:400;line-height:1.4em;color:#333}.btn-container{padding:30px 30px}.btn{font-family:'Montserrat',sans-serif;font-size:30px;font-weight:700;text-decoration:none;color:#FFF;padding:14px 30px;background-color:#04C01E;border-bottom:4px solid #047F15;border-radius:4px}.btn:hover{background-color:#03E922;border-color:#069a1a}.cta-btn{font-family:'Lato',sans-serif;font-size:14px;font-weight:700;color:#444;line-height:1.4em;padding:10px;text-align:center}#lista-container{background-color:#000}.conteudo{max-width:900px;display:flex;flex-direction:column;align-items:center;padding:20px 10px}#lista-conteudo{gap:30px}.lista-icones{list-style:none;max-width:700px;display:flex;flex-direction:column;align-items:center;gap:25px;padding:15px 0px}#headline-lista{color:#0FDA7F}.lista-item{display:flex}.item{font-family:'Lato',sans-serif;font-size:18px;font-weight:400;line-height:1.6em;color:#fff;margin-top:-7px}.lista-item::before{content:url('/svg/check.svg');display:inline-block;width:16px;height:16px;margin-right:10px}#cta-final{background-color:#000}#cta-final h3{color:#0FDA7F}#cta-final span{color:#fff}#faq-container{gap:15px}#faq-conteudo{gap:15px;max-width:700px}#faq-headline{color:#0FDA7F}.pergunta{width:100%;font-family:'Lato',sans-serif;font-size:22px;font-weight:900;line-height:1.3em;text-align:left}.resposta{font-family:'Lato',sans-serif;font-size:18px;font-weight:400;line-height:1.6em;padding-right:50px}.rodape{font-family:'Lato',sans-serif;background-color:#000;display:flex;flex-direction:column;gap:15px;padding:50px 50px 25px 50px}.rodape-menu{display:flex;gap:20px}.rodape-item-menu{font-size:13px;color:#fff;text-decoration:none}.direitos{font-size:13px;color:#fff;text-align:center}.top-bar-termos-politica{font-size:30px}.container-termos-politica{padding:0px 50px 50px 50px}.conteudo-termos-politica{max-width:800px;gap:25px}.pergunta-termos-politica{line-height:2em}.resposta-termos-politica{line-height:2em}@media (max-width:767px){.top-bar{font-size:24px}.headline{font-size:30px;line-height:1.3em}.cta-text{font-size:20px;line-height:1.3em}.btn-container{margin:20px auto;padding:10px}.btn{font-size:22px;padding:14px 20px}.item{font-size:16px}.pergunta{font-size:18px}.resposta{font-size:14px;padding-right:0px}.circle{width:7px;height:7px;border-radius:100%;margin:10px 3px}.headline-mobile{font-size:26px}.item{font-size:16px}.cta-btn{font-size:13px;padding:10px 60px}#title-termos-politica{font-size:24px;padding:30px}}@media (min-width:768px) and (max-width:1023px){.resposta{padding-right:0px}}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-bar {
+    background-color: #FF3131;
+    display: block;
+
+}
+
+.top-bar-title {
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    color: #343434;
+}
+
+#sub-headline {
+    color: #FF3131;
+}
+
+.frame-video {
+    background-color: #E6E6E6;
+    max-width: 900px;
+    margin: 25px 25px;
+    padding: 0px 7px 7px 7px;
+    border-radius: 7px;
+}
+
+.video-adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin: 15px 5px;
+}
+
+#circle-1 {
+    background-color: #FF5F56;
+}
+
+#circle-2 {
+    background-color: #FFBD2E;
+}
+
+#circle-3 {
+    background-color: #27C93F;
+}
+
+.cta-text {
+    display: block;
+    text-align: center;
+    max-width: 700px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.btn-container {
+    padding: 30px 30px;
+}
+
+.btn {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px 30px;
+    background-color: #04C01E;
+    border-bottom: 4px solid #047F15;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #03E922;
+    border-color: #069a1a;
+}
+
+.cta-btn {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.4em;
+    padding: 10px;
+    text-align: center;
+}
+
+#lista-container {
+    background-color: #000;
+}
+
+.conteudo {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+#lista-conteudo {
+    gap: 30px;
+}
+
+.lista-icones {
+    list-style: none;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 0px;
+}
+
+#headline-lista {
+    color: #0FDA7F;
+}
+
+.lista-item {
+    display: flex;
+}
+
+.item {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fff;
+    margin-top: -7px;
+}
+
+.lista-item::before {
+    content: url('/svg/check.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+#cta-final {
+    background-color: #000;
+}
+
+#cta-final h3 {
+    color: #0FDA7F;
+}
+
+#cta-final span {
+    color: #fff;
+}
+
+#faq-container {
+    gap: 15px;
+}
+
+#faq-conteudo {
+
+    gap: 15px;
+    max-width: 700px;
+}
+
+#faq-headline {
+    color: #0FDA7F;
+}
+
+.pergunta {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.resposta {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-right: 50px;
+}
+
+.rodape {
+    font-family: 'Lato', sans-serif;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 50px 25px 50px;
+}
+
+.rodape-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.rodape-item-menu {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.direitos {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+.top-bar-termos-politica {
+    font-size: 30px;
+}
+
+.container-termos-politica {
+    padding: 0px 50px 50px 50px;
+}
+
+.conteudo-termos-politica {
+    max-width: 800px;
+    gap: 25px;
+}
+
+.pergunta-termos-politica {
+    line-height: 2em;
+    
+}
+
+.resposta-termos-politica {
+    line-height: 2em;
+}
+
+/* Estilo botão whatsapp */
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button a {
+    display: block;
+    width: 60px;
+    height: 60px;  
+}
+
+
+/* Fim estilo botão whatsapp */
+
+/* Samrtphone Modo Retrato */
+@media (max-width: 767px) {
+    .top-bar {
+        font-size: 24px;
+    }
+
+    .headline {
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+
+    .cta-text {
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+    .btn-container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 22px;
+        padding: 14px 20px;
+
+    }
+
+    .item {
+        font-size: 16px;
+    }
+
+    .pergunta {
+        font-size: 18px;
+    }
+
+    .resposta {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .circle {
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        margin: 10px 3px;
+    }
+
+    .headline-mobile {
+        font-size: 26px;
+    }
+
+    .item {
+        font-size: 16px;
+    }
+
+    .cta-btn {
+        font-size: 13px;
+        padding: 10px 60px;
+    }
+
+    #title-termos-politica {
+        font-size: 24px;
+        padding: 30px;
+    }
+}
+
+/* Smartphone Modo Paisagem */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .resposta {
+        padding-right: 0px;
+    }
+}
